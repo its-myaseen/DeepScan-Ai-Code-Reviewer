@@ -19,7 +19,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 app.use(cors({
-  origin: 'https://deep-scan-ai-code-reviewer.vercel.app/', // your Vercel frontend domain
+  origin: 'https://deep-scan-ai-code-reviewer.vercel.app', // your Vercel frontend domain
   credentials: true // only if using cookies or auth headers
 }));
 app.use(logger('dev'));
